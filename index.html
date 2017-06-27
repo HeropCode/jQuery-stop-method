@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+
+    <link rel="icon" href="favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="favicon.png" />
+    <!--<link rel="shortcut icon" href="favicon.ico" />-->
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery-1.10.1.min.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="wrap controls">
+        <h1 class="bold">.stop(clearQueue, jumpToEnd)</h1>
+        <p>
+            <span class="bold">clearQueue</span>: 모든 애니메이션 대기열(큐, Queue) 종료<br/>
+            <span class="bold">jumpToEnd</span>: 현재 애니메이션 동작 마무리
+        </p>
+        <input type="text" value="2000" placeholder="속도(ms)" class="speed">
+        <div class="btn start">START!</div>
+        <div class="btn stop1">stop() / stop(false, false)</div>
+        <div class="btn stop2">stop(false, true)</div>
+        <div class="btn stop3">stop(true, false)</div>
+        <div class="btn stop4">stop(true, true)</div>
+        <div class="btn finish">finish()</div>
+        <div class="btn reset">RESET...</div>
+    </div>
+
+    <div class="wrap viewport">
+        <div class="obj"></div>
+        <div class="start point">START</div>
+        <div class="way_point1 point">2</div>
+        <div class="way_point2 point">3</div>
+        <div class="end point">FINISH</div>
+    </div>
+</div>
+
+</body>
+</html>

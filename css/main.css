@@ -1,0 +1,99 @@
+/* COMMON */
+.container {
+    padding: 20px;
+    font-size: 16px;
+}
+.wrap {
+    position: relative;
+    border-radius: 3px;
+    float: left;
+}
+.bold {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+/* CONTROLS */
+.wrap.controls {
+    width: 30%;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+h1.bold {
+    font-size: 1.7em;
+    margin: 10px 0 20px 0;
+}
+p {
+    margin-bottom: 20px;
+}
+.speed {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    outline: none;
+}
+.speed:focus {
+    border: 1px solid #99274E;
+}
+.btn {
+    padding: 10px;
+    background: #595F80;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+.btn:hover {
+    background: #99274E;
+}
+
+
+/* VIEW PORT */
+.wrap.viewport {
+    width: 70%;
+    height: 500px;
+    background: #EEEEEE;
+}
+.viewport .obj {
+    width: 100px;
+    height: 100px;
+    background: #99274E;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+.viewport .point {
+    width: 100px;
+    height: 100px;
+    background: #99274E;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .2;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 24px;
+}
+.viewport .start {
+    top: 20px;
+    left: 20px;
+}
+.viewport .way_point1 {
+    top: 20px;
+    right: 20px;
+}
+.viewport .way_point2 {
+    bottom: 20px;
+    right: 20px;
+}
+.viewport .end {
+    bottom: 20px;
+    left: 20px;
+}
